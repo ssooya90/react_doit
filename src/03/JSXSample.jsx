@@ -1,5 +1,4 @@
 import React from 'react';
-import TodaysPlan from './03/TodaysPlan';
 
 class App extends React.Component {
 
@@ -7,8 +6,9 @@ class App extends React.Component {
 
         return (
 
-            <div className="body">
-                <TodaysPlan/>
+            <div>
+                <img src="http://www.easyspub.co.kr/images/logo_footer.png" />
+                <div>안녕하세요</div>
             </div>
 
 

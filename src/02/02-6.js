@@ -42,3 +42,27 @@ console.log(c)
 
 console.log(s)
 
+
+var add = (first, second) => first + second;
+
+console.log(add(1,2))
+
+
+function addNumber(num){
+
+    return function(value) {
+        return num + value;
+    }
+
+}
+
+
+console.log(addNumber(10))
+
+var x = 0;
+var y = 1;
+
+var obj = {x, y};
+
+
+console.log(obj)
