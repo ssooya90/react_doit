@@ -57,6 +57,14 @@ work1and2()
         return work3()
     })
     .then((msg3) => {
-        console.log(msg3)
-    })
+        console.log(msg3 + "asdf")
+        console.log(msg3 + "asdf")
+    });
 
+
+var me = {
+    name:'jojoldu',
+    age: 1
+}
+
+console.log(me)
