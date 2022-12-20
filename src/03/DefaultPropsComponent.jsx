@@ -8,6 +8,8 @@ class DefaultPropsComponent extends Component {
 
         if(this.props.boolValue === false){
             message1 = 'boolvalue 기본값이 false입니다';
+        }else if(this.props.boolValue === true){
+            message1 = 'boolvalue 기본값이 true입니다';
         }
 
         let meesage2 = '';

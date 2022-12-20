@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultPropsComponent from './03/DefaultPropsComponent';
+import Counter from './03/Counter';
 
 
 class App extends React.Component {
@@ -8,11 +8,11 @@ class App extends React.Component {
     render() {
 
         return (
-            <DefaultPropsComponent
 
-                // 파라미터 전달
-                boolValueWithoutDefault = {false}
-            />
+            <div>
+                <Counter/>
+            </div>
+
         );
     }
 }
