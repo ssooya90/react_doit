@@ -11,6 +11,7 @@ class Counter extends Component {
         };
 
         this.increaseCount = this.increaseCount.bind(this);
+        this.decreaseCount = this.decreaseCount.bind(this);
     }
 
     increaseCount() {
@@ -19,9 +20,17 @@ class Counter extends Component {
         this.setState({
             count : this.state.count + 1,
         });
-
-
     }
+
+    decreaseCount() {
+
+        console.log("ASDF")
+        // state 변경
+        this.setState({
+            count : this.state.count - 1,
+        });
+    }
+
 
     render() {
 
@@ -29,6 +38,7 @@ class Counter extends Component {
             <div>
                 <span>카운트@ : {this.state.count}</span><br/>
                 <button onClick={this.increaseCount}>카운트 증가</button>
+                <button onClick={this.decreaseCount}>카운트 감소</button>
             </div>
         );
     }
