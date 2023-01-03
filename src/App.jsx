@@ -1,5 +1,6 @@
 import React from 'react';
-import Input from './03/Input';
+import './sass/materialize.scss';
+import './App.css';
 
 
 
@@ -9,10 +10,14 @@ class App extends React.Component {
 
 
     render() {
-
         return (
-            <div className="body">
-                <Input name="test" type="number"/>
+            <div>
+                <nav>
+                    <div className="nav-wrapper">
+                        <div>두잇! 리액트 시작하기</div>
+                    </div>
+                </nav>
+                <h1>머티리얼 CSS</h1>
             </div>
         );
     }
