@@ -76,15 +76,15 @@ const spread = (...args) => {
     var[one, two, ...others] = args;
     console.log(others);
 }
-
-spread(...combined);    // [3, 4]
-
-const object1 = {one: 1, two: 2, other: 'hi'};
+;
 const object2 = {three: 3, four: 4, other: 'bye'};
 
 const newObj = {
     ...object1, ...object2
 }
+spread(...combined);    // [3, 4]
+
+const object1 = {one: 1, two: 2, other: 'hi'}
 
 const {etc , ...object3} = object1
 
