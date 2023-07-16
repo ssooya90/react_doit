@@ -1,8 +1,6 @@
 
 function debounce(func, delay){
 
-
-
     let inDebounce;
 
     return function(...args){
@@ -22,6 +20,10 @@ const run = debounce(val => console.log(val), 100);
 
 run('a')
 run('b')
+
+console.log("TEST")
+console.log("TEST")
 run(2);
+run(3);
 
 

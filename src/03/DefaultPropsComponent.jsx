@@ -32,9 +32,8 @@ DefaultPropsComponent.propTypes ={
     boolValueWithoutDefault : PropTypes.bool,
 }
 
-// 기본값 선언
 DefaultPropsComponent.defaultProps = {
-    boolValue : false
+    boolValue : true
 }
 
 export default DefaultPropsComponent;
